@@ -67,7 +67,7 @@ def banner():
 ██║░░╚██╗██║░░██║██║░░██║░╚═══██╗░░░██║░░░██╔══██║░╚═══██╗██╔══██║░██╔██╗░
 ╚██████╔╝╚█████╔╝██████╔╝██████╔╝░░░██║░░░██║░░██║██████╔╝██║░░██║██╔╝╚██╗
 ░╚═════╝░░╚════╝░╚═════╝░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝''' + W)
-	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'thewhiteh4t')
+	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'your mom')
 	print(G + '[>]' + C + ' Version    : ' + W + version + '\n')
 
 def ver_check():
@@ -93,7 +93,7 @@ def tunnel_select():
 	if tunnel_mode == None:
 		serveo()
 	elif tunnel_mode == 'manual':
-		print(G + '[+]' + C + ' Skipping Serveo, start your own tunnel service manually...' + W + '\n')
+		print(G + '[+]' + C + ' Skipping Server, start your own tunnel service manually...' + W + '\n')
 	else:
 		print(R + '[+]' + C + ' Invalid Tunnel Mode Selected, Check Help [-h, --help]' + W + '\n')
 		exit()
